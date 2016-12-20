@@ -1,11 +1,19 @@
 {
   "name": "telegram-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "Telegram-bot, using JS",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/usernamen7/telegram-bot"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "N7",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.2.1",
+    "request": "^2.79.0"
+  }
 }
